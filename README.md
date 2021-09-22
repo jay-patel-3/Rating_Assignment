@@ -1,2 +1,2 @@
 # Rating_Assignment
-Module 6 &amp; 7
+Module 7 &amp; 8
