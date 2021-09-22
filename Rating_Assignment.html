@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rating Assignment</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="Rating_Assignment.css"> 
+    </head>
+
+    <body>
+        <h1>Contoso Web Developer Conference</h1>
+        <h2>Finding elements using jQuery</h2>
+        <div>This session is about identifying elements using jQuery methods and selectors.</div>
+        <h3>Rate this session</h3>
+        <div id="rating-container">
+            <div class="rating-circle"></div>
+            <div class="rating-circle"></div>
+            <div class="rating-circle"></div>
+            <div class="rating-circle"></div>
+            <div class="rating-circle"></div>
+        </div>
+        <br>
+
+        <div class="row my-4">
+            <div class="col">
+                <div class="alert alert-primary lead bg-light text-center" id="messageDialog">
+                    test content
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col text-center">
+                <button class="btn btn-outline-primary" onclick="submit();">Submit</button>
+                <button class="btn btn-outline-secondary" onclick="reset();">Reset</button>
+            </div>
+        </div>
+
+        <script src="Rating_Assignment.js"></script>
+    </body>
+</html>
